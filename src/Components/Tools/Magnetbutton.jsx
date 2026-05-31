@@ -22,7 +22,7 @@ const MagneticButton = ({ children , className }) => {
       ref={btnRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
-      className={`magnet-btn bg-transparent ${className}`}
+      className={`magnet-btn  ${className}`}
     >
       {children}
     </button>

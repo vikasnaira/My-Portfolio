@@ -42,8 +42,7 @@ const Cursor = () => {
     <div
       ref={cursorRef}
       // 2. top-5 left-6 ko top-0 left-0 kiya taaki tracking exact perfectly center ho
-      className="fixed w-4 h-4 bg-indigo-500 md:flex hidden top-0 left-0 z-9999 rounded-full pointer-events-none will-change-transform"
-      style={{ boxShadow: "-1px -1px 2px gray, inset -1px -1px 1px gray" }}
+      className="fixed w-4 h-4 bg-indigo-500 md:flex hidden top-0 left-0 z-9999 rounded-full pointer-events-none mix-blend-difference"
     />
   );
 };

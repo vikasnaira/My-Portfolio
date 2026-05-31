@@ -14,11 +14,11 @@ const About = () => {
         '>
          </div>
 
-        <div className="AboutImg relative md:w-1/2 gap-25 w-full  h-140 overflow-hidden flex flex-col  items-center">
+        <div className="AboutImg relative md:w-1/2 gap-25 w-full  h-110 md:h-140 overflow-hidden flex flex-col  items-center">
         <div
-         className="bg-blue-500 hidden
+         className="bg-blue-500 
           md:h-70 
-        md:w-50
+          md:w-50
          h-40 w-30
           md:top-[30%] 
           top-[30%] 
