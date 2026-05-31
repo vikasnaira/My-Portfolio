@@ -1,0 +1,127 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Momo+Signature&family=Shadows+Into+Light&family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap'); */
+
+body{
+    scroll-behavior: smooth;
+    background: #000;
+}
+.move{
+    transition: all .2s;
+}
+
+
+.hide{
+    backdrop-filter: blur("10px");
+}
+
+.name:hover .move{
+    transform:translateX(-63px);
+    transition-duration:.7s;
+}
+.name:hover .i{
+    transform: rotateZ(90deg);
+    transition-duration:.7s;
+}
+.magnet-btn::before{
+    content: "";
+    bottom:-6px;
+    left: 50%;
+    position: absolute;
+    height: 2px;
+    width: 2px ;
+    transform: scale(0);
+    border-radius: 50%;
+    background: hsl(0, 0%, 100%);
+    transition: all 0.3s ;
+}
+.magnet-btn:hover::before{
+    transform: scale(1.9);
+}
+.magnet-btn {position: relative;
+  cursor: pointer;
+  transition: transform 0.2s ease-out;
+}
+.bebas{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size:8em;
+}
+
+video{
+ pointer-events:none;
+}
+.vk{
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  transition: all 0.3s;
+}
+.name , .sign{
+ font-family: "Kaushan Script", cursive; 
+  font-weight: 100;
+}
+.vk:hover{
+    text-shadow: 1px -1px 10px blue;
+
+}
+
+/* From Uiverse.io by adamgiebl */ 
+.connect{
+  border: 1px solid white;
+  display: flex;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.connect span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.connect svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.connect:hover .svg-wrapper {
+  animation: fly-1 0.6s ease-in-out infinite alternate;
+}
+
+.connect:hover svg {
+  transform: translateX(1.2em) rotate(45deg) scale(1.1);
+}
+
+.connect:hover span {
+  transform: translateX(5em);
+}
+
+.connect:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
+.loader{
+  transition:all .9s ease-out;
+}
+.text{
+  transition:translate ease-out 0.5s;
+}
+@keyframes blockMove{
+  0%{opacity:0;scale:0.5; background-color: red;}
+  100%{opacity:1;scale:1; background-color: green;}
+}
+.blocks{
+animation:blockMove 4s linear;
+
+}
