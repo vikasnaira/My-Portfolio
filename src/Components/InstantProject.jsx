@@ -10,7 +10,7 @@ const InstantProject = () => {
       </div>
        
       {/* Grid hata kar CSS Columns (Pinterest Style) lagaya hai */}
-      <div className="projectGrid z-2 columns-1 sm:columns-2 md:columns-2 lg:columns-4 md:p-20 p-10 max-w-7xl w-full mx-auto [column-fill:_balance]">
+      <div className="projectGrid z-2 columns-1 sm:columns-2 md:columns-2 lg:columns-4 md:p-20 p-10 max-w-7xl w-full mx-auto ">
 
         <img src="Music.webp" alt="" className='w-full h-30 object-cover hover:scale-103  transition-all duration-300  rounded-lg mb-4 break-inside-avoid block'/>
         <img src="./Photos/PhotoGen.jpg" alt="" className='w-full h-auto hover:scale-103  transition-all duration-300  object-cover rounded-lg mb-4 break-inside-avoid block'/>

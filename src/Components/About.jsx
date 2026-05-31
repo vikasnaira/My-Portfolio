@@ -16,7 +16,7 @@ const About = () => {
 
         <div className="AboutImg relative md:w-1/2 gap-25 w-full  h-140 overflow-hidden flex flex-col  items-center">
         <div
-         className="bg-blue-500
+         className="bg-blue-500 hidden
           md:h-70 
         md:w-50
          h-40 w-30

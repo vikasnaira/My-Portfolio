@@ -11,6 +11,7 @@ const Home = () => {
       <section>
         <Hero/>
       </section>
+
       <section>
         <About/>
       </section>
