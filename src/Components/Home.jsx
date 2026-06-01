@@ -30,7 +30,6 @@ const Home = () => {
       </section>
 
 
-
       <section>
         <Footer/>
       </section>

@@ -21,11 +21,11 @@ const Contact = () => {
       </div>
 
       <motion.div 
-      initial={{ height:100, opacity: 0, rotate:90 , y:380 , x:-60 }}
-      whileInView={{rotate:0 ,y:0 ,opacity:1, x:0}}
-      viewport={{ once:false }}
-      transition={{ duration: 0.5 }}
-      className="icons relative text-4xl hidden md:block right-25  mt-12">
+          initial={{ height:100, opacity: 0, rotate:90 , y:380 , x:-60 }}
+          whileInView={{rotate:0 ,y:0 ,opacity:1, x:0}}
+          viewport={{ once:false }}
+          transition={{ duration: 0.5 }}
+          className="icons relative text-4xl hidden md:block right-25  mt-12">
         <ul >
          <li className='p-1 absolute -left-18 top-18 flex  justify-center items-center gap-2'>
         <button className="bg-white text-black p-1 rounded-full"><FaLinkedin/></button>

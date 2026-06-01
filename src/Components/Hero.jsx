@@ -9,18 +9,16 @@ useEffect(() => {
 
  const vRef = useRef(null)
   return (
-  <section className=' flex-1  md:mt-30 mt-20  relative py-10 px-2 md:px-5 w-full' style={{backgroundImage:`url("video.mp4")`}}>
+  <section className=' md:mt-30 mt-20  relative py-10 px-2 md:px-5'>
 
 
 <Cursor/>
 
-
    <video
     autoPlay muted loop playsInline 
     ref={vRef}
-    className="absolute top-0 right-0 w-full md:w-1/2 md:z-1 z-3 pointer-events-none  h-full md:object-bottom"
+    className="absolute top-0 right-0 mt-20 w-full md:w-1/2 md:z-1 z-3 pointer-events-none  h-full md:object-bottom"
   >
-  
     <source src="video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
@@ -35,7 +33,7 @@ useEffect(() => {
         <Text bg={"text-white vk md:text-7xl text-4xl antialiased h-20 z-2"} delay={900} Name={"&"} top={"md:w-18 w-9 h-25" } move={"-translate-y-28"}/>
         <Text bg={"text-black vk md:text-7xl text-4xl antialiased h-20 [-webkit-text-stroke:.5px_white] text-extrabold  z-2"} delay={700} Name={"Designer"} top={"md:w-100 w-50 h-10 md:h-20"} move={" -translate-y-28"}/>
         </div>
-        <div className='w-fit h-fit top-80 z-9 px-2  absolute '>
+        <div className='w-fit h-fit top-80 z-9 px-2 mt-20 absolute '>
           <button className='connect bg-white text-black p-2 hover:bg-black hover:text-white rounded-3xl px-5'>
             <div class="svg-wrapper-1">
               <div class="svg-wrapper">

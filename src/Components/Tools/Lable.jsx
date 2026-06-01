@@ -12,22 +12,19 @@ const Lable = () => {
     offset: ["start end", "end start"]
   });
 
-  // Smooth scroll movement (0 se -1000px tak left jayega)
+  
   const scrollX = useTransform(scrollYProgress, [0, 1], [0, -1000]);
   const combinedX = useTransform(scrollX, (latestScroll) => latestScroll + hoverOffset);
   
-  // Spring configuration ko aur smooth kiya (stiffness: 80, damping: 25)
+  
   const smoothX = useSpring(combinedX, { stiffness: 80, damping: 25 });
 
-  // Data Array: Isse code clean rehta hai aur icons manage karna aasan hota hai
+  
   const marqueeItems = [
     { text: "Web Developer", icon: <Code2 className="w-16 h-16 md:w-20 md:h-20 text-black stroke-[1.5]" /> },
-    { text: "UI/UX Designer", icon: <Sparkles className="w-16 h-16 md:w-20 md:h-20 text-black stroke-[1.5]" /> },
-    { text: "Frontend Engineer", icon: <Terminal className="w-16 h-16 md:w-20 md:h-20 text-black stroke-[1.5]" /> },
-    { text: "Full Stack", icon: <Cpu className="w-16 h-16 md:w-20 md:h-20 text-black stroke-[1.5]" /> },
-  ];
+    { text: "UI/UX Designer", icon: <Sparkles className="w-16 h-16 md:w-20 md:h-20 text-black stroke-[1.5]" /> },];
 
-  const repeatedItems = [...marqueeItems, ...marqueeItems, ...marqueeItems];
+  const repeatedItems = [...marqueeItems];
 
   return (
     <div 

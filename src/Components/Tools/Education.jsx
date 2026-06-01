@@ -1,15 +1,25 @@
+import { motion } from 'framer-motion'
 import React from 'react'
-
 const Education = () => {
   return (
     <article className="p-5 md:p-0 flex flex-col items-center md:items-start justify-center mt-10">
-      <h1 className='text-3xl text-[#7AF298] font-bold'>Other Libraries</h1>
-      <div className='flex gap-4 mt-5 text-gray-500 md:justify-start justify-center flex-wrap'>
+      <motion.h1
+      initial={{ rotateY: -90, opacity: 0 }}
+      whileInView={{ rotateY: 0, opacity: 1 }}
+      viewport={{ once:false}}
+      transition={{ duration: 0.5 }} 
+       className='text-3xl text-[#7AF298] font-bold'>Other Libraries</motion.h1>
+      <motion.div 
+      initial={{ height: 0, opacity: 0 }}
+      whileInView={{ height: 'auto', opacity: 1 }}
+      viewport={{ once:false}}
+      transition={{ duration: 0.5 }} 
+      className='flex gap-4 mt-5 text-gray-500 overflow-hidden  md:justify-start justify-center flex-wrap'>
       <h2>Tailwind css</h2>
       <h2>Gsap</h2>
       <h2>Framer Motion</h2>
       <h2>Next.js</h2>
-      </div>
+      </motion.div>
     </article>
   )
 }
