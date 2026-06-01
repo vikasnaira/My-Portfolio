@@ -15,7 +15,7 @@ const Navbar = () => {
                <Link to="/"><MagneticButton children={"Home"}/></Link>
                <Link to="/about"><MagneticButton children={"About"}/></Link>
         </div>
-            <RxComponent1 className='tet-white text-xl md:hidden'/>
+            <RxComponent1 className='text-white text-xl md:hidden'/>
     </div>
   ) 
 }

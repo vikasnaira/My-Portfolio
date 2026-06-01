@@ -2,15 +2,17 @@ import React from 'react'
 import MagneticButton from './Magnetbutton'
 import { MdArrowOutward } from "react-icons/md";
 import Lable from './Lable';
-
+import { Code2, Sparkles, Terminal, Cpu } from 'lucide-react'
 
 const Footer = () => {
+  const techItems = [
+    { text: "Get in Touch", icon: <Code2  /> },
+    { text: "Contact Me ", icon: <Sparkles /> },
+    { text: "Hire Me", icon: <Terminal/> }
+  ];
   return (
     <article className='text-2xl  mt-40 relative'>
 
-      <section>
-        <Lable/>
-      </section>
 
       <div className=' 
       absolute
@@ -33,6 +35,14 @@ const Footer = () => {
         <hr className='w-full mt-2 bg-gray-500'/>
         <h1>{"/>"}</h1>
        </div>
+
+
+
+      <section>
+       <Lable baseItems={techItems} className="bg-gray-900 border-white text-white h-10" text="vk  text-white md:text-2xl"  />
+      </section>
+
+
     </article>
   )
 }
