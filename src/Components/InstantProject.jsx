@@ -4,8 +4,8 @@ const InstantProject = () => {
   return (
     <article className='flex flex-col justify-center items-center gap-5 mt-10 relative w-full'>
       <motion.h1 
-        initial={{ height: 0, opacity: 0 }}
-        whileInView={{ height: 'auto', opacity: 1 }}
+        initial={{ y: 50, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }} 
         className="text-4xl text-center font-bold overflow-hidden text-[#7AF298]">INSTANT PROJECTS <br /> OVERVIEW</motion.h1>
