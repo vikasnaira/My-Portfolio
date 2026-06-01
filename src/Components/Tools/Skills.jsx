@@ -21,8 +21,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
           
           <motion.div 
-            initial={{ width: 0,  }}
-            whileInView={{ width: 'auto' }}
+            initial={{  x:40, opacity: 0 }}
+            whileInView={{ x:0, opacity: 1 }}
             viewport={{ once:false }}
             transition={{ duration:0.5}}
           className=' flex gap-5 overflow-hidden'>
