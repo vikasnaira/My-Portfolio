@@ -33,7 +33,7 @@ const About = () => {
            "  ></div>
 <span>
         <motion.h3 
-        initial={{ opacity: 0, y:-20 }}
+        initial={{ opacity: 0, y:20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
@@ -41,10 +41,10 @@ const About = () => {
           HELLOW IM</motion.h3>
 
 
-        <motion.h1 initial={{ opacity: 0, y:-40 }}
+        <motion.h1 initial={{ opacity: 0, y:40 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once:false}}
-          transition={{ duration: 0.2 }} 
+          transition={{ duration: 0.5, delay:0.3 }} 
           className='vk font-bold  text-3xl text-[#7AF298]'>
           Vikas naira</motion.h1>
 </span>
@@ -54,9 +54,17 @@ const About = () => {
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
         src="vikas.png" alt="Vikas Naira" className='md:h-150 md:w-70 z-2  w-40 h-100' />
-        <div className=' w-full bg-black/30 backdrop-blur-sm  bottom-0 absolute  z-9 flex justify-center items-center font-bold text-[#7AF298]'>
-          <h1 className='text-2xl md:text-4xl lg:text-5xl vk text-center'>FRONTEND ENGINEER</h1>
-        </div>
+        <motion.div
+        initial={{ opacity: 0, y:50}}
+        whileInView={{ opacity: 1, y: 0 , }}
+        viewport={{ once:false}}
+        transition={{ duration: 0.5 ,delay:0.2 }} 
+         className=' w-full bg-black/30 backdrop-blur-sm 
+          bottom-0 absolute  z-9 flex justify-center items-center
+           font-bold text-[#7AF298]'>
+          <h1 className='text-2xl md:text-4xl  lg:text-5xl vk 
+           text-center'>FRONTEND ENGINEER</h1>
+        </motion.div>
         </div>
 
         <div className="AboutText w-full md:w-1/2">

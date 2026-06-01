@@ -1,6 +1,6 @@
 import { useRef } from "react";
 
-const MagneticButton = ({ children , className }) => {
+const Magneticbutton = ({ children , className }) => {
   const btnRef = useRef(null);
 
   const handleMouseMove = (e) => {
@@ -29,4 +29,4 @@ const MagneticButton = ({ children , className }) => {
   );
 };
 
-export default MagneticButton;
+export default Magneticbutton;

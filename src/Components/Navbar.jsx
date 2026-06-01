@@ -1,6 +1,6 @@
 import React from 'react'
 import { GiMoebiusStar } from "react-icons/gi";
-import MagneticButton from './Tools/Magnetbutton';
+import Magneticbutton from './Tools/Magnetbutton';
 import { Link } from "react-router-dom";
 import { RxComponent1 } from "react-icons/rx";  
 const Navbar = () => {
@@ -12,8 +12,8 @@ const Navbar = () => {
         <button className='absolute left-13 w-fit text-lg h-full text-nowrap move'>code by Vikas Naira</button>
         </div>
         <div className="buttons text-lg gap-8 text-white hidden md:flex">
-               <Link to="/"><MagneticButton children={"Home"}/></Link>
-               <Link to="/about"><MagneticButton children={"About"}/></Link>
+               <Link to="/"><Magneticbutton children={"Home"}/></Link>
+               <Link to="/about"><Magneticbutton children={"About"}/></Link>
         </div>
             <RxComponent1 className='text-white text-xl md:hidden'/>
     </div>

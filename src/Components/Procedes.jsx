@@ -5,10 +5,10 @@ motion
 const Procedes = () => {
   return (
     <motion.article 
-    initial={{opacity:0, y:50, rotate:10,}}
-    whileInView={{opacity:1, y:0, rotate:0}}
+    initial={{opacity:0, y:50,}}
+    whileInView={{opacity:1, y:0}}
     viewport={{once:false}}
-    transition={{duration:1}}
+    transition={{duration:1, delay:0.2, staggerChildren:0.3}}
     className="flex flex-col mt-10 px-6 md:px-15">
       <h1 className='md:text-4xl text-2xl   text-white md:text-right font-bold vk md:p-5'>MY WORK DEVELOPMENT <br /> WORK PROCESS</h1>
       <hr className="border-gray-600 mt-7 border" />

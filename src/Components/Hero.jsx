@@ -17,7 +17,7 @@ useEffect(() => {
    <video
     autoPlay muted loop playsInline 
     ref={vRef}
-    className="absolute top-0 right-0 mt-[25%] w-full md:w-1/2 md:z-1 z-3 pointer-events-none h-full md:object-bottom"
+    className="absolute top-0 right-0 md:mt-0 mt-[25%] w-full md:w-1/2 md:z-1 z-3 pointer-events-none h-full md:object-bottom"
   >
     <source src="video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
