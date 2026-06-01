@@ -31,7 +31,7 @@ const Lable = () => {
       ref={containerRef} 
       onMouseEnter={() => setHoverOffset(-200)} 
       onMouseLeave={() => setHoverOffset(0)}
-      className='w-full border-y-2 border-black py-6 bg-[#7AF298] overflow-x-hidden cursor-pointer select-none relative flex items-center shadow-[0_4px_20px_rgba(122,242,152,0.2)]'
+      className='w-full border-y-2 border-black py-6 z-99 bg-[#7AF298] overflow-x-hidden cursor-pointer select-none relative flex items-center shadow-[0_4px_20px_rgba(122,242,152,0.2)]'
     >
         <motion.div
           style={{ x: smoothX }}
