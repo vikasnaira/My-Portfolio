@@ -4,13 +4,13 @@ import Education from './Tools/Education';
 import { motion } from 'framer-motion';
 const About = () => {
   return (
-    <div>
+    <>
       <motion.article  
         initial={{  y:-120 }}
         whileInView={{ y: 0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-      className="text-white md:p-15 p-2 mt-30 flex justify-between relative flex-col md:flex-row gap-10" >
+      className="text-white md:p-15 p-2 mt-30  flex justify-between relative flex-col md:flex-row gap-10" >
       <div
        className='absolute 
        h-50 w-50 md:h-120 
@@ -20,7 +20,7 @@ const About = () => {
         '>
          </div>
 
-        <div className="AboutImg relative md:w-1/2 gap-20 w-full  h-95 md:h-140 overflow-hidden flex flex-col  items-center" >
+        <div className="AboutImg relative md:w-1/2 gap-20 w-full  h-100 md:h-150 overflow-hidden flex flex-col  items-center" >
         <div
          className="bg-blue-500 
           md:h-70 
@@ -32,13 +32,13 @@ const About = () => {
          rounded-full blur-3xl 
            "  ></div>
 <span>
-  <motion.h3 
-  initial={{ opacity: 0, y:-20 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  viewport={{ once:false}}
-  transition={{ duration: 0.5 }}
-   className='text-sm text-gray-500 text-center'>
-    HELLOW IM</motion.h3>
+        <motion.h3 
+        initial={{ opacity: 0, y:-20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once:false}}
+        transition={{ duration: 0.5 }}
+        className='text-sm text-gray-500 text-center'>
+          HELLOW IM</motion.h3>
 
 
         <motion.h1 initial={{ opacity: 0, y:-40 }}
@@ -54,6 +54,9 @@ const About = () => {
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
         src="vikas.png" alt="Vikas Naira" className='md:h-150 md:w-70 z-2  w-40 h-100' />
+        <div className=' w-full bg-black/30 backdrop-blur-sm  bottom-0 absolute  z-9 flex justify-center items-center font-bold text-[#7AF298]'>
+          <h1 className='text-2xl md:text-4xl lg:text-5xl vk text-center'>FRONTEND ENGINEER</h1>
+        </div>
         </div>
 
         <div className="AboutText w-full md:w-1/2">
@@ -61,11 +64,11 @@ const About = () => {
         <div className=" flex justify-center  shadow-orange-50 items-center md:justify-start md:items-start flex-col">
 
           <motion.h1 
-          initial={{ opacity: 0, width:0 }}
-          whileInView={{ opacity: 1, width: 'auto' }}
+          initial={{ opacity: 0, y:-20 }}
+          whileInView={{ opacity: 1, x:0 }}
           viewport={{ once:false}}
           transition={{ duration: 0.9 }}
-          className='vk text-3xl text-nowrap overflow-hidden
+          className='vk text-3xl text-nowrap  mt-11 overflow-hidden
            text-[#7AF298] font-bold mb-5'>
             About Me
           </motion.h1>
@@ -74,13 +77,13 @@ const About = () => {
           whileInView={{ opacity: 1, y: 0 , scale:1 }}
           viewport={{ once:false}}
           transition={{ duration: 0.5 }}
-           className='text-gray-300 text-center md:text-left '>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam nemo, libero 
-            commodi magnam dolore voluptate quo numquam similique,
-             vero voluptatibus ex voluptates inventore laudantium placeat of
-             ficia quis assumenda incidunt fugit soluta officiis enim illum aperiam
-              qui consequatur? Dolorum pariatur a at fugit nemo, assumenda culpa delectus 
-              nisi labore, laudantium debitis.
+           className='text-gray-300 text-center md:text-left vk'>
+           "Hi, I'm Vikas Naira, a Frontend Developer driven by a passion for merging data-driven logic
+            with pixel-perfect design. I specialize in turning complex wireframes into responsive, 
+            high-performance web solutions that users love to interact with. My primary toolkit includes
+             React, Next.js, and Tailwind CSS, and I place a massive focus on writing clean,
+              accessible code. When I’m not debugging or tweaking UI transitions,
+            I’m usually exploring emerging web technologies to keep my skills sharp.
           </motion.p>
 
         </div>
@@ -96,7 +99,7 @@ const About = () => {
       
         </div>
       </motion.article>
-    </div>
+    </>
   )
 }
 

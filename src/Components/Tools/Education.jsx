@@ -8,13 +8,13 @@ const Education = () => {
       whileInView={{ x: 0, opacity: 1 }}
       viewport={{ once:false}}
       transition={{ duration: 0.5 }} 
-       className='text-3xl text-[#7AF298] font-bold'>Other Libraries</motion.h1>
+       className='text-3xl text-[#7AF298] vk font-bold'>Other Libraries</motion.h1>
       <motion.div 
       initial={{ y: 20, opacity: 0 }}
       whileInView={{ y:0, opacity: 1 }}
       viewport={{ once:false}}
       transition={{ duration: 0.5 }} 
-      className='flex gap-4 mt-5 text-gray-500 overflow-hidden  md:justify-start justify-center flex-wrap'>
+      className='flex gap-4 mt-5 text-gray-500 vk overflow-hidden  md:justify-start justify-center flex-wrap'>
       <h2>Tailwind css</h2>
       <h2>Gsap</h2>
       <h2>Framer Motion</h2>

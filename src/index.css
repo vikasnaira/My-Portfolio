@@ -45,7 +45,7 @@ html.lenis, html.lenis body {
     transform: rotateZ(90deg);
     transition-duration:.7s;
 }
-.magnet-btn::before{
+/* .magnet-btn::before{
     content: "";
     bottom:-6px;
     left: 50%;
@@ -56,7 +56,7 @@ html.lenis, html.lenis body {
     border-radius: 50%;
     background: hsl(0, 0%, 100%);
     transition: all 0.3s ;
-}
+} */
 .magnet-btn:hover::before{
     transform: scale(1.9);
 }

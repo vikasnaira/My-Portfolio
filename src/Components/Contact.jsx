@@ -5,7 +5,12 @@ import { motion } from 'framer-motion';
 import Social from './Tools/Social';
 const Contact = () => {
   return (
-    <article className='h-screen w-full flex md:flex-row flex-col items-center md:items-start text-white justify-between  font-bold'>
+    <motion.article 
+    initial={{ opacity: 0 , y:50 }}
+    whileInView={{ opacity: 1 , y:0 }}
+    viewport={{ once:false}}
+    transition={{ duration:0.5 }}
+    className='mt-10 w-full flex md:flex-row flex-col items-center md:items-start text-white justify-between  font-bold'>
     <div className="Contact w-1/3  mt-10 flex flex-col items-center  gap-5">
     <MagneticButton children={"Contact Me"} className="text-3xl vk text-nowrap text-[#7AF298]"/>
     <div className=" rounded-full overflow-hidden md:h-80 z-2 md:w-80 h-40 w-40 flex items-center justify-center ">
@@ -54,7 +59,7 @@ const Contact = () => {
   <Social/>
 </section>
 
-    </article>
+    </motion.article>
   )
 }
 

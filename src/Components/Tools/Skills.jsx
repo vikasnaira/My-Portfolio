@@ -7,38 +7,37 @@ import { RiTailwindCssFill } from "react-icons/ri";
     <div>
          <article className='mt-10 flex justify-center md:items-start items-center flex-col'>
           <motion.h1
-          initial={{ width: 0, opacity: 0 }}
-          whileInView={{ width: 'auto', opacity: 1 }}
+          initial={{ x: -20, opacity: 0 }}
+          whileInView={{ x: 0, opacity: 1 }}
           viewport={{ once:false}}
           transition={{ duration: 0.5 }} 
-           className='text-3xl text-[#7AF298] font-bold overflow-hidden' >Skills</motion.h1>
+           className='text-3xl text-[#7AF298] vk font-bold overflow-hidden' >Skills</motion.h1>
           <motion.h2
            initial={{y:40, opacity: 0 }}
           whileInView={{ y:0, opacity: 1 }}
           viewport={{ once:false}}
           transition={{ duration: 0.5 }} 
-          className='text-xl  text-gray-500 text-nowrap overflow-hidden mt-8'>Frontend Developer</motion.h2>
-
+          className='text-xl  text-gray-500 text-nowrap vk overflow-hidden mt-8'>Frontend Developer</motion.h2>
           
           <motion.div 
             initial={{  x:40, opacity: 0 }}
             whileInView={{ x:0, opacity: 1 }}
             viewport={{ once:false }}
             transition={{ duration:0.5}}
-          className=' flex gap-5 overflow-hidden'>
-              <h1 className='flex flex-col   justify-center items-center gap-2'>
-                <FaReact className='text-5xl backdrop-blur-sm bg-gray-400/20   text-blue-100 mt-5 border rounded-2xl p-1 hover:scale-110 transition-transform duration-300  hover:shadow-md shadow-blue-700'/>
-                <p className='text-gray-500 text-sm'>React js</p>
+          className=' grid grid-cols-2 md:grid-cols-4 gap-5 overflow-hidden '>
+              <h1 className='flex flex-col   justify-center vk items-center gap-2'>
+                <FaReact className='text-5xl  backdrop-blur-sm bg-gray-400/20   text-blue-100 mt-5 border rounded-2xl p-1 hover:scale-110 transition-transform duration-300  hover:shadow-md shadow-blue-700'/>
+                <p className='text-gray-500 text-sm '>React js</p>
                 </h1>
               <h1 className='flex flex-col justify-center items-center gap-2'>
             <RiTailwindCssFill className='text-5xl bg-gray-400/20 text-blue-100 mt-5 border rounded-2xl p-1 hover:scale-110 transition-transform duration-300  hover:shadow-md shadow-blue-700'/>
-                <p className='text-gray-500 text-sm text-nowrap'>Tailwind CSS</p>
+                <p className='text-gray-500 vk text-sm text-nowrap'>Tailwind CSS</p>
               </h1>
-              <h1 className='flex flex-col justify-center items-center gap-2'>
+              <h1 className='flex flex-col justify-center vk items-center gap-2'>
               <FaDatabase className='text-5xl bg-gray-400/20 backdrop-blur-sm  text-blue-100 mt-5 border rounded-2xl p-1 hover:scale-110 transition-transform duration-300  hover:shadow-md shadow-blue-700'/>  
                 <p className='text-gray-500 text-sm'>MongoDB</p>
               </h1>
-              <h1 className='flex flex-col justify-center items-center gap-2'>
+              <h1 className='flex flex-col justify-center vk items-center gap-2'>
             <FaNodeJs className='text-5xl bg-gray-400/20 backdrop-blur-sm  text-blue-100 mt-5 border rounded-2xl p-1 hover:scale-110 transition-transform duration-300  hover:shadow-md shadow-blue-700'/>
                <p className='text-gray-500 text-sm'>Node.js</p>
               </h1>

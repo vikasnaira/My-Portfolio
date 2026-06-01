@@ -4,11 +4,11 @@ const InstantProject = () => {
   return (
     <article className=' hidden md:flex flex-col justify-center items-center gap-5 mt-10 relative w-full'>
       <motion.h1 
-        initial={{ height: 0, opacity: 0 }}
-        whileInView={{ height: 'auto', opacity: 1 }}
+        initial={{ y: -20, opacity: 0 }}
+        whileInView={{ y:0, opacity: 1 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }} 
-        className="text-4xl text-center font-bold overflow-hidden text-[#7AF298]">INSTANT PROJECTS <br /> OVERVIEW</motion.h1>
+        className="text-4xl text-center font-bold  vk overflow-hidden text-[#7AF298]">INSTANT PROJECTS <br /> OVERVIEW</motion.h1>
 
       <div className='absolute h-500 w-20 md:h-150 md:w-150 bg-blue-500/80  left-[50%] md:top-[20%] rounded-full blur-3xl'>
 

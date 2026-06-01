@@ -31,12 +31,12 @@ const Home = () => {
         <Works/>
       </section>
 
-      <section>
+      <section className="mt-10">
         <Lable baseItems={serviceItems} text="lg:text-9xl  text-6xl" />
       </section>
 
 
-      <section>
+      <section> 
         <Footer />
       </section>
 

@@ -17,7 +17,7 @@ useEffect(() => {
    <video
     autoPlay muted loop playsInline 
     ref={vRef}
-    className="absolute top-0 right-0 mt-15 w-full md:w-1/2 md:z-1 z-3 pointer-events-none  h-full md:object-bottom"
+    className="absolute top-0 right-0 mt-[25%] w-full md:w-1/2 md:z-1 z-3 pointer-events-none h-full md:object-bottom"
   >
     <source src="video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
@@ -53,7 +53,7 @@ useEffect(() => {
             </div>
             <span>Connect </span>
           </button>
-       <p className='text-white w-full text-xs md:w-100 py-2 md:text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus perferendis modi perspiciatis, unde veniam doloremque nulla aperiam adipisci labore est?</p>
+       <p className='text-white w-full vk text-xs md:w-100 py-2 md:text-sm'>I thrive on solving real-world problems, turning ideas into clean, maintainable code, and learning through experimentation.  You’ll find me building side projects, diving into new tech stacks, or simply exploring what’s next in the world of web development.</p>
         </div>
        </div>
     </section>

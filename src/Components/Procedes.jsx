@@ -5,10 +5,10 @@ motion
 const Procedes = () => {
   return (
     <motion.article 
-    initial={{opacity:0, y:50}}
-    whileInView={{opacity:1, y:0}}
+    initial={{opacity:0, y:50, rotate:10,}}
+    whileInView={{opacity:1, y:0, rotate:0}}
     viewport={{once:false}}
-    transition={{duration:0.5}}
+    transition={{duration:1}}
     className="flex flex-col mt-10 px-6 md:px-15">
       <h1 className='md:text-4xl text-2xl   text-white md:text-right font-bold vk md:p-5'>MY WORK DEVELOPMENT <br /> WORK PROCESS</h1>
       <hr className="border-gray-600 mt-7 border" />
@@ -17,6 +17,7 @@ const Procedes = () => {
       <ProTile Num="02" Heading="Build & Develop" Description="Build pixel-perfect user interfaces . I ensure that every component—UI or API—is maintainable." />
       <ProTile Num="03" Heading="Launch & Support" Description="I also provide post-launch monitoring, performance optimization, and ongoing iteration support to keep your product growing." />
       </div>
+      <hr  className='border w-full border-gray-600 md:mt-20'/>
     </motion.article>
   )
 }
