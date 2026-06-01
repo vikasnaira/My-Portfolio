@@ -13,8 +13,8 @@ import { RiTailwindCssFill } from "react-icons/ri";
           transition={{ duration: 0.5 }} 
            className='text-3xl text-[#7AF298] font-bold overflow-hidden' >Skills</motion.h1>
           <motion.h2
-           initial={{ height: 0, opacity: 0 }}
-          whileInView={{ height: 'auto', opacity: 1 }}
+           initial={{y:40, opacity: 0 }}
+          whileInView={{ y:0, opacity: 1 }}
           viewport={{ once:false}}
           transition={{ duration: 0.5 }} 
           className='text-xl  text-gray-500 text-nowrap overflow-hidden mt-8'>Frontend Developer</motion.h2>
