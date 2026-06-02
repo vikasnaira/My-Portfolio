@@ -34,6 +34,8 @@ useEffect(() => {
         <Text bg={"text-black vk md:text-7xl text-4xl antialiased h-20 [-webkit-text-stroke:.5px_white] text-extrabold  z-2"} delay={700} Name={"Designer"} top={"md:w-100 w-50 h-10 md:h-20"} move={" -translate-y-28"}/>
         </div>
         <div className='w-fit h-fit top-80 z-9 px-2 absolute '>
+
+          <a href="#Contact">
           <button className='connect bg-white text-black p-2 hover:bg-black hover:text-white rounded-3xl px-5'>
             <div class="svg-wrapper-1">
               <div class="svg-wrapper">
@@ -53,7 +55,8 @@ useEffect(() => {
             </div>
             <span>Connect </span>
           </button>
-       <p className='text-white w-full vk text-xs md:w-100 py-2 md:text-sm'>I thrive on solving real-world problems, turning ideas into clean, maintainable code, and learning through experimentation.  You’ll find me building side projects, diving into new tech stacks, or simply exploring what’s next in the world of web development.</p>
+          </a>
+           <p className='text-white w-full vk text-xs md:w-100 py-2 md:text-sm'>I thrive on solving real-world problems, turning ideas into clean, maintainable code, and learning through experimentation.  You’ll find me building side projects, diving into new tech stacks, or simply exploring what’s next in the world of web development.</p>
         </div>
        </div>
     </section>

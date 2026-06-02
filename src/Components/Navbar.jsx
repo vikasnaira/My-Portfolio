@@ -27,6 +27,11 @@ const Navbar = () => {
                <Magneticbutton className={"text-sm vk text-gray-300"} children={"ABOUT"}/>
                 </a>
 
+            
+                <a href="#Resume">
+               <Magneticbutton className={"text-sm vk text-gray-300"} children={"RESUME"}/>
+                </a>
+
                
         </div>
            

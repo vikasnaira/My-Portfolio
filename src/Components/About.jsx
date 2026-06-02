@@ -81,8 +81,8 @@ const About = () => {
             About Me
           </motion.h1>
           <motion.p
-          initial={{ opacity: 0, y:20 ,scale:0.8 }}
-          whileInView={{ opacity: 1, y: 0 , scale:1 }}
+          initial={{ opacity: 0, y:20 }}
+          whileInView={{ opacity: 1, y: 0  }}
           viewport={{ once:false}}
           transition={{ duration: 0.5 }}
            className='text-gray-300 text-center md:text-left vk'>

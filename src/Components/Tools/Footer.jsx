@@ -26,7 +26,7 @@ const Footer = () => {
 
 
         <motion.h1
-        initial={{ opacity: 0, y:20 }}
+        initial={{ y:20 }}
          whileInView={{ opacity: 1, x:0 }}
          viewport={{ once:false}}
          transition={{ duration: 0.5}}
@@ -56,6 +56,7 @@ const Footer = () => {
 
           THE NEXT LEVEL ?
         </motion.h1>
+        <a href="#Contact2">
         <Magneticbutton
         initial={{ opacity: 0, scale:0.1, }}
         whileInView={{ opacity: 1, scale:1, }}
@@ -63,11 +64,12 @@ const Footer = () => {
         transition={{ duration: 0.8 }}
         children={<><MdArrowOutward className='md:text-xl text-sm font-extralight'/>start </>} 
         className="md:text-3xl font-normal md:flex-col 
-       text-black flex justify-center
+        text-black flex justify-center
         items-center   md:h-30 md:-translate-y-55 md:translate-x-70
-         rounded-full text-sm
+        rounded-full text-sm
          bg-[#7AF298] gap-2 md:px-5 vk px-3 py-2 mt-10 
          "/>
+         </a>
       </div>
        <div className='flex items-center text-md px-4 justify-center gap-2 mt-10'>
          <h1>{"</"}</h1>

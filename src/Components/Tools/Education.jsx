@@ -4,8 +4,8 @@ const Education = () => {
   return (
     <article className="p-5 md:p-0 flex flex-col items-center md:items-start justify-center mt-10">
       <motion.h1
-      initial={{ x: -20, opacity: 0 }}
-      whileInView={{ x: 0, opacity: 1 }}
+      initial={{ y: 20, opacity: 0 }}
+      whileInView={{ y: 0, opacity: 1 }}
       viewport={{ once:false}}
       transition={{ duration: 0.5 }} 
        className='text-3xl text-[#7AF298] vk font-bold'>Other Libraries</motion.h1>
