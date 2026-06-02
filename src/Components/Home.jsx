@@ -15,19 +15,19 @@ const Home = () => {
   return (      
     <main className='overflow-hidden bg-black w-full'>
 
-      <section>
+      <section id='Hero'>
         <Hero/>
       </section>
 
-      <section>
+      <section id='About'>
         <About/>
       </section>
 
-      <section>
+      <section >
           <Procedes/>
       </section>
 
-      <section>
+      <section id="Projects">
         <Works/>
       </section>
 
@@ -36,7 +36,7 @@ const Home = () => {
       </section>
 
 
-      <section> 
+      <section id='Contact'> 
         <Footer />
       </section>
 

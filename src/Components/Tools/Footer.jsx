@@ -14,7 +14,6 @@ const Footer = () => {
   return (
     <article className='mt-10 md:mt-20  relative'>
 
-
       <div className=' 
       absolute
       -top-40 left-60 h-150 
@@ -27,18 +26,18 @@ const Footer = () => {
 
 
         <motion.h1
-        initial={{ opacity: 0, x:-100 }}
+        initial={{ opacity: 0, y:20 }}
          whileInView={{ opacity: 1, x:0 }}
          viewport={{ once:false}}
-         transition={{ duration: 0.2}}
+         transition={{ duration: 0.5}}
         className='md:text-7xl text-xl text-center text-nowrap vk font-medium'>
           READY TO TAKE YOUR 
-            </motion.h1>
+        </motion.h1>
           <br className='hidden md:block'/>
 
 
         <motion.h1
-        initial={{ opacity: 0, x:-200 }}
+        initial={{ opacity: 0, y:20 }}
          whileInView={{ opacity: 1, x:0 }}
          viewport={{ once:false}}
          transition={{ duration: 0.5 }}
@@ -49,10 +48,10 @@ const Footer = () => {
 
 
         <motion.h1
-        initial={{ opacity: 0, x:-200 }}
+        initial={{ opacity: 0, x:20 }}
         whileInView={{ opacity: 1, x:0 }}
         viewport={{ once:false}}
-        transition={{ duration: 0.9 }}
+        transition={{ duration: 0.5 }}
         className='md:text-7xl text-xl text-center text-nowrap vk font-medium'>
 
           THE NEXT LEVEL ?

@@ -60,7 +60,7 @@ const About = () => {
         viewport={{ once:false}}
         transition={{ duration: 0.5 ,delay:0.2 }} 
          className=' w-full bg-black/30 backdrop-blur-sm 
-          bottom-0 absolute  z-9 flex justify-center items-center
+          bottom-0 absolute z-2 flex justify-center items-center
            font-bold text-[#7AF298]'>
           <h1 className='text-2xl md:text-4xl  lg:text-5xl vk 
            text-center'>FRONTEND ENGINEER</h1>

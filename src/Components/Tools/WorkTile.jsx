@@ -4,7 +4,7 @@ const WorkTile = ({ src={}, alt="", title="",className="", description=""}) => {
   
   return (
     <motion.article 
-    initial={{ y:80,scale:0.8 , opacity:0.2,}}
+    initial={{ y:10,scale:0.8 , opacity:0.2,}}
     whileInView={{ y:0 ,scale:1, opacity:1}}
     viewport={{once:false}}
     transition={{duration:1,}}
