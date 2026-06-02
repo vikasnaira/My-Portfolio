@@ -10,7 +10,7 @@ const About = () => {
         whileInView={{ y: 0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-      className="text-white md:p-15 p-2 mt-30  flex justify-between relative flex-col md:flex-row gap-10" >
+      className="text-white md:p-15 p-2 mt-50  flex justify-between relative flex-col md:flex-row gap-10" >
       <div
        className='absolute 
        h-50 w-50 md:h-120 

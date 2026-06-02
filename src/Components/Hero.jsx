@@ -9,7 +9,7 @@ useEffect(() => {
 
  const vRef = useRef(null)
   return (
-  <section className=' md:mt-30 mt-20  relative py-10 px-2 md:px-5'>
+  <section className=' md:mt-30 mt-20  relative py-10 px-2 md:px-5' id='Hero'>
 
 
 <Cursor/>
@@ -17,12 +17,12 @@ useEffect(() => {
    <video
     autoPlay muted loop playsInline 
     ref={vRef}
-    className="absolute top-0 right-0 md:mt-0 mt-[25%] w-full md:w-1/2 md:z-1 z-3 pointer-events-none h-full md:object-bottom"
+    className="absolute -bottom-20 left-[25%] md:left-[50%] md:-top-[20%] lg:-top-[10] mt-[25%] w-50 md:w-1/2 md:z-1 z-3 pointer-events-none h-full md:object-bottom"
   >
     <source src="video.mp4" type="video/mp4" />
     Your browser does not support the video tag.
   </video>
-      <div className="text h-[70vh] py-5 gap-5 md:p-10 flex-col flex">
+      <div className="text  py-5 gap-5 md:p-10  flex-col flex">
         <hr  className='h-1 md:w-40 w-20 absolute md:top-19 bg-black z-9 top-10 text-white'/>
         <Text bg={" sign text-white md:text-2xl text-sm antialiased"} delay={400} Name={"vikas naira"} top={"w-40 h-20" } move={"-translate-y-10"}/>
         <div className='flex md:gap-3 '>
@@ -33,7 +33,7 @@ useEffect(() => {
         <Text bg={"text-white vk md:text-7xl text-4xl antialiased h-20 z-2"} delay={900} Name={"&"} top={"md:w-18 w-9 h-25" } move={"-translate-y-28"}/>
         <Text bg={"text-black vk md:text-7xl text-4xl antialiased h-20 [-webkit-text-stroke:.5px_white] text-extrabold  z-2"} delay={700} Name={"Designer"} top={"md:w-100 w-50 h-10 md:h-20"} move={" -translate-y-28"}/>
         </div>
-        <div className='w-fit h-fit top-80 z-9 px-2 mt-20 absolute '>
+        <div className='w-fit h-fit top-80 z-9 px-2 absolute '>
           <button className='connect bg-white text-black p-2 hover:bg-black hover:text-white rounded-3xl px-5'>
             <div class="svg-wrapper-1">
               <div class="svg-wrapper">

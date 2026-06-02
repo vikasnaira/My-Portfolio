@@ -15,7 +15,7 @@ const Home = () => {
   return (      
     <main className='overflow-hidden bg-black w-full'>
 
-      <section id='Hero'>
+      <section>
         <Hero/>
       </section>
 
@@ -40,7 +40,7 @@ const Home = () => {
         <Footer />
       </section>
 
-      <section>
+      <section id='Contact2'>
         <Contact/>
       </section>
 

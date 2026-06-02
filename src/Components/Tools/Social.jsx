@@ -7,7 +7,6 @@ const Social = () => {
   return (
     <article className="relative flex flex-col px-4 items-center md:items-start w-full md:w-fit">
 
-
       <hr className=' bg-gray-500 w-full md:hidden'/>
 
       <div className='flex md:hidden py-5 text-xs justify-between font-thin w-full p-2'>
@@ -38,11 +37,6 @@ const Social = () => {
               vikasnaira.github.io
             </a>
         </div>
-
-<div className='w-80 h-80 rounded-full hidden bg-blue-500/40 blur-3xl   absolute -right-70  top-20'>
-
-</div>
-
 
         </div>
     </article>

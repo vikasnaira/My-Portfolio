@@ -21,7 +21,7 @@ const Works = () => {
       </motion.div >
       <div 
       
-      className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 md:gap-6 mt-10 px-3 md:px-30 max-w-7xl w-full mx-auto'>
+      className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 md:gap-6 mt-10 px-3 md:px-10 max-w-7xl w-full mx-auto'>
         <WorkTile src="Music.webp" alt="PhotoGen" title="MUSIC APP" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
         <WorkTile src="./Photos/Ai.jpg" alt="PhotoGen" title="AI CHAT BOT" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
         <WorkTile src="./Photos/Weather.jpg" alt="PhotoGen" className="w-full h-45 object-cover " title="WEATHER APP" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>

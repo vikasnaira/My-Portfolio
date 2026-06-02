@@ -16,7 +16,7 @@ const Footer = () => {
 
       <div className=' 
       absolute
-      -top-40 left-60 h-150 
+       lg:-top-10 md:left-40 left-10 h-150 
        mix-blend-difference 
        rounded-full w-150 
        bg-blue-600/40 blur-2xl '>
@@ -30,7 +30,7 @@ const Footer = () => {
          whileInView={{ opacity: 1, x:0 }}
          viewport={{ once:false}}
          transition={{ duration: 0.5}}
-        className='md:text-7xl text-xl text-center text-nowrap vk font-medium'>
+        className='md:text-5xl text-xl text-center text-nowrap vk font-medium'>
           READY TO TAKE YOUR 
         </motion.h1>
           <br className='hidden md:block'/>
@@ -41,7 +41,7 @@ const Footer = () => {
          whileInView={{ opacity: 1, x:0 }}
          viewport={{ once:false}}
          transition={{ duration: 0.5 }}
-        className='md:text-7xl text-xl text-center text-nowrap vk font-medium'>
+        className='md:text-5xl text-xl text-center text-nowrap md:mt-6 vk font-medium'>
            IDEA TO 
           </motion.h1>
           <br className='hidden md:block'/>
@@ -52,7 +52,7 @@ const Footer = () => {
         whileInView={{ opacity: 1, x:0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-        className='md:text-7xl text-xl text-center text-nowrap vk font-medium'>
+        className='md:text-5xl text-xl text-center md:mt-10 mt-6 text-nowrap vk font-medium'>
 
           THE NEXT LEVEL ?
         </motion.h1>
@@ -64,9 +64,9 @@ const Footer = () => {
         children={<><MdArrowOutward className='md:text-xl text-sm font-extralight'/>start </>} 
         className="md:text-3xl font-normal md:flex-col 
        text-black flex justify-center
-        items-center   md:h-30 md:-translate-y-48 md:translate-x-70
+        items-center   md:h-30 md:-translate-y-55 md:translate-x-70
          rounded-full text-sm
-         bg-[#7AF298] gap-2 md:px-5 vk px-3 py-2 mt-10 md:mt-0
+         bg-[#7AF298] gap-2 md:px-5 vk px-3 py-2 mt-10 
          "/>
       </div>
        <div className='flex items-center text-md px-4 justify-center gap-2 mt-10'>
