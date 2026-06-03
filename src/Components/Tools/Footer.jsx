@@ -18,6 +18,7 @@ const Footer = () => {
       absolute
        lg:-top-10 md:left-40 left-10 h-150 
        mix-blend-difference 
+       lg:left-90
        rounded-full w-150 
        bg-blue-600/40 blur-2xl '>
       </div>
@@ -26,8 +27,8 @@ const Footer = () => {
 
 
         <motion.h1
-        initial={{ y:20 }}
-         whileInView={{ opacity: 1, x:0 }}
+        initial={{ y:40 }}
+         whileInView={{ opacity: 1, y:0 }}
          viewport={{ once:false}}
          transition={{ duration: 0.5}}
         className='md:text-5xl text-xl text-center text-nowrap vk font-medium'>
@@ -37,8 +38,8 @@ const Footer = () => {
 
 
         <motion.h1
-        initial={{ opacity: 0, y:20 }}
-         whileInView={{ opacity: 1, x:0 }}
+        initial={{ opacity: 0, y:40 }}
+         whileInView={{ opacity: 1, y:0 }}
          viewport={{ once:false}}
          transition={{ duration: 0.5 }}
         className='md:text-5xl text-xl text-center text-nowrap md:mt-6 vk font-medium'>
@@ -48,15 +49,15 @@ const Footer = () => {
 
 
         <motion.h1
-        initial={{ opacity: 0, x:20 }}
-        whileInView={{ opacity: 1, x:0 }}
+        initial={{ opacity: 0, y:40 }}
+        whileInView={{ opacity: 1, y:0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-        className='md:text-5xl text-xl text-center md:mt-10 mt-6 text-nowrap vk font-medium'>
+        className='md:text-5xl text-xl text-center  text-nowrap vk font-medium'>
 
           THE NEXT LEVEL ?
         </motion.h1>
-        <a href="#Contact2">
+      <a href="#Contact2">
         <Magneticbutton
         initial={{ opacity: 0, scale:0.1, }}
         whileInView={{ opacity: 1, scale:1, }}

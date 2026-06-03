@@ -19,7 +19,7 @@ const Home = () => {
         <Hero/>
       </section>
 
-      <section id='About'>
+      <section id='About ' className='md:px-10 px-6' >
         <About/>
       </section>
 

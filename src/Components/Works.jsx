@@ -4,14 +4,16 @@ import WorkTile from './Tools/WorkTile'
 import { motion } from 'framer-motion'
 const Works = () => {
   return (
-    <article>
+    <article className=' px-2 md:px-10'>
       <InstantProject/>
+      <div 
+      className='grid grid-cols-1 border-t border-gray-300 md:grid-cols-2 lg:grid-cols-2 gap-1 md:gap-6 mt-10 px-3 md:px-15 max-w-7xl w-full mx-auto '>
       <motion.div
-      initial={{ y:100,}}
-      whileInView={{y:0}}
+      initial={{ y:100,rotateX:60}}
+      whileInView={{y:0, rotateX:0}}
       viewport={{once:false}}
-      transition={{duration:0.5,delay:0.3}}
-      className='flex flex-col'>
+      transition={{duration:0.5,}}
+      className='flex flex-col '>
          <h1 className='md:text-6xl text-4xl px-4 text-[#7AF298] vk font-bold text-end mt-20'>
         LATEST
       </h1>
@@ -19,9 +21,6 @@ const Works = () => {
         PROJECTS
       </h1>
       </motion.div >
-      <div 
-      
-      className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-1 md:gap-6 mt-10 px-3 md:px-10 max-w-7xl w-full mx-auto'>
         <WorkTile src="Music.webp" alt="PhotoGen" title="MUSIC APP" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
         <WorkTile src="./Photos/Ai.jpg" alt="PhotoGen" title="AI CHAT BOT" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
         <WorkTile src="./Photos/Weather.jpg" alt="PhotoGen" className="w-full h-45 object-cover " title="WEATHER APP" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
@@ -30,6 +29,7 @@ const Works = () => {
         <WorkTile src="./Photos/Zentry.jpg" className='w-full' alt="PhotoGen" title="ZENTRY </> LANDING PAGE" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
         <WorkTile src="./Photos/PhotoGen.jpg" className='w-full h-50 object-cover object-top'  alt="PhotoGen" title="IMAGE </> GENERATOR AI" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
         <WorkTile src="./Photos/Login.jpg" className='w-full' alt="PhotoGen" title="AUTHORIZED ANIM LOGIN PAGE " description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
+        <WorkTile src="./Photos/Task.webp" className='w-full' alt="PhotoGen" title="TASK MANAGER APP" description="A AI-powered image generation app that creates stunning visuals from text prompts, utilizing advanced machine learning algorithms to bring your ideas to life."/>
       </div>
     </article>
   )

@@ -8,11 +8,10 @@ const Social = () => {
   const WhatsappLink = `https://wa.me/${WhatsappNumber}`;
   return (
     <motion.article
-    initial={{x:150}}
-    whileInView={{x:0}}
+    initial={{y:150}}
+    whileInView={{y:0}}
     transition={{duration:0.5}}
-
-    className="relative flex flex-col  items-center md:items-start w-full md:w-fit">
+    className="relative flex flex-col  md:items-start w-full md:w-fit">
 
       <hr className=' bg-gray-500 w-full md:hidden'/>
 
@@ -51,7 +50,7 @@ const Social = () => {
           transition={{ duration: 0.4 }}
           id='Resume'
           href="https://drive.google.com/file/d/1Mc3V_3pGY7XX3uj9g9S371TWn5suUOtr/view?usp=drive_link">
-                 <button className='flex w-[100vw] md:hidden gap-4 py-4 text-xl items-center bg-white/20  backdrop-2xl justify-center font-medium text-white'><GrDocumentUser/>Get My Resume</button>
+                 <button className='flex w-full md:hidden gap-4 py-4 text-xl items-center bg-white/20  backdrop-2xl justify-center font-medium text-white'><GrDocumentUser/>Get My Resume</button>
             </motion.a>
     </motion.article>
   )

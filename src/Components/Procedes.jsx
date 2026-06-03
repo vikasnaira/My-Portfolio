@@ -14,8 +14,8 @@ const Procedes = () => {
       <hr className="border-gray-600 mt-7 border" />
       <div className="grid md:grid-cols-3  gap-5 grid-cols-1 mt-5 ">
       <ProTile Num="01" Heading="Plan & Architect" Description="Before writing a single line of code, I dive deep into understanding the project goals, user needs, and technical constraints." />
-      <ProTile Num="02" Heading="Build & Develop" Description="Build pixel-perfect user interfaces . I ensure that every component—UI or API—is maintainable." />
-      <ProTile Num="03" Heading="Launch & Support" Description="I also provide post-launch monitoring, performance optimization, and ongoing iteration support to keep your product growing." />
+      <ProTile Num="02" Heading="Build & Develope" Description="Build pixel-perfect user interfaces . I ensure that every component—UI or API—is maintainable." />
+      <ProTile className="border-0" Num="03" Heading="Launch & Support" Description="I also provide post-launch monitoring, performance optimization, and ongoing iteration support to keep your product growing." />
       </div>
       <hr  className='border w-full border-gray-600 md:mt-20'/>
     </motion.article>

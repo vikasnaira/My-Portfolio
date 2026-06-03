@@ -6,11 +6,11 @@ const About = () => {
   return (
     <>
       <motion.article  
-        initial={{  y:-120 }}
+        initial={{  y:120 }}
         whileInView={{ y: 0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-      className="text-white md:p-15 p-2 mt-50  flex justify-between relative flex-col md:flex-row gap-10" >
+      className="text-white md:p-15 p-2 mt-50 border-t border-gray-500 z-99 flex justify-between relative flex-col md:flex-row gap-10" >
       <div
        className='absolute 
        h-50 w-50 md:h-120 
@@ -49,11 +49,11 @@ const About = () => {
           Vikas naira</motion.h1>
 </span>
         <motion.img 
-        initial={{ opacity: 0, y:20 , x:-120 , scale:0.8 }}
-        whileInView={{ opacity: 1, y: 0 , scale:1 , x:0 }}
+        initial={{ y:120 , scale:0.8 }} 
+        whileInView={{  y: 0 , scale:1 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-        src="vikas.png" alt="Vikas Naira" className='md:h-150 md:w-70 z-2  w-40 h-100' />
+        src="Vikas3.png"  alt="Vikas Naira" className='md:h-150 md:w-70 z-2  w-40 h-100' />
         <motion.div
         initial={{ opacity: 0, y:50}}
         whileInView={{ opacity: 1, y: 0 , }}
