@@ -53,7 +53,7 @@ const Footer = () => {
         whileInView={{ opacity: 1, y:0 }}
         viewport={{ once:false}}
         transition={{ duration: 0.5 }}
-        className='md:text-5xl text-xl text-center  text-nowrap vk font-medium'>
+        className='md:text-5xl text-xl text-center text-nowrap vk font-medium'>
 
           THE NEXT LEVEL ?
         </motion.h1>
@@ -64,11 +64,11 @@ const Footer = () => {
         viewport={{ once:false}}
         transition={{ duration: 0.8 }}
         children={<><MdArrowOutward className='md:text-xl text-sm font-extralight'/>start </>} 
-        className="md:text-3xl font-normal md:flex-col 
+        className="md:text-3xl font-normal md:flex-col md:mr-20 mt-10  
         text-black flex justify-center
         items-center   md:h-30 md:-translate-y-55 md:translate-x-70
         rounded-full text-sm
-         bg-[#7AF298] gap-2 md:px-5 vk px-3 py-2 mt-10 
+         bg-[#7AF298] gap-2 md:px-5 vk px-3 py-2 md:mt-12 
          "/>
          </a>
       </div>

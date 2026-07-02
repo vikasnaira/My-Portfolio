@@ -43,15 +43,21 @@ const Social = () => {
             </a>
         </div>
         </div>
-          <motion.a 
-          initial={{ opacity: 0, y:30 }}
-          whileInView={{opacity:1, y:0}}
-          viewport={{ once:false }}
-          transition={{ duration: 0.4 }}
+          <a 
           id='Resume'
           href="https://drive.google.com/file/d/1Mc3V_3pGY7XX3uj9g9S371TWn5suUOtr/view?usp=drive_link">
-                 <button className='flex w-full md:hidden gap-4 py-4 text-xl items-center bg-white/20  backdrop-2xl justify-center font-medium text-white'><GrDocumentUser/>Get My Resume</button>
-            </motion.a>
+                 <motion.button
+                 style={
+                  {
+                    boxShadow:"inset 3px 3px 10px blue"
+                  }
+                 }
+                  initial={{ opacity: 0, y:30 }}
+                  whileInView={{opacity:1, y:0}}
+                  viewport={{ once:false }}
+                  transition={{ duration: 0.4 }}
+                  className='flex w-full md:hidden gap-4 py-4 text-xl items-center bg-blue-800/60  backdrop-2xl justify-center font-medium text-white'><GrDocumentUser/>Get My Resume</motion.button>
+            </a>
     </motion.article>
   )
 }
