@@ -36,7 +36,7 @@ useEffect(() => {
         <div className='w-fit h-fit top-80 z-9 px-2 absolute '>
 
           <a href="#Contact">
-          <button className='connect bg-white text-black p-2 hover:bg-black hover:text-white rounded-3xl px-5'>
+          <button className='connect bg-white text-black p-2  hover:bg-black hover:text-white rounded-3xl px-5'>
             <div class="svg-wrapper-1">
               <div class="svg-wrapper">
                 <svg
